@@ -25,11 +25,14 @@
 <hr/>
 사람 문장과 시스템 문장 두 문장을 각각 토큰화 한 뒤 [CLS] + 사람문장 + [SEP] + 시스템문장 + [SEP] 형태로 이어 붙임
 
-![image](https://user-images.githubusercontent.com/100950656/223349249-1c7584ab-dcc4-45ca-a2ad-118ea74f34e1.png)
 
 ![image](https://user-images.githubusercontent.com/100950656/223348433-0464125e-4863-4896-977b-c6f2ab708196.png)
 
 ![image](https://user-images.githubusercontent.com/100950656/223348506-1b2d4109-8bfb-4c05-bd40-47b161d2d833.png)
+
+attention mask에서 1에 해당하는 부분은 사람문장과 시스템문장, 0에 해당하는 부분은 패딩처리 [pad]
+token_type_ids에서 0에 해당하는 부분이 사람문장, 1에 해당하는 부분이 시스템문장
+label이 3인 것을 통해 상처에 해당하는 문장임을 알 수 있음
 
 평가
 
