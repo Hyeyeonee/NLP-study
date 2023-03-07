@@ -24,12 +24,14 @@
 ### result
 <hr/>
 사람 문장과 시스템 문장 두 문장을 각각 토큰화 한 뒤 [CLS] + 사람문장 + [SEP] + 시스템문장 + [SEP] 형태로 이어 붙임
+
 ![image](https://user-images.githubusercontent.com/100950656/223349249-1c7584ab-dcc4-45ca-a2ad-118ea74f34e1.png)
 
 ![image](https://user-images.githubusercontent.com/100950656/223348433-0464125e-4863-4896-977b-c6f2ab708196.png)
 
-평가
 ![image](https://user-images.githubusercontent.com/100950656/223348506-1b2d4109-8bfb-4c05-bd40-47b161d2d833.png)
+
+평가
 
 ![image](https://user-images.githubusercontent.com/100950656/223348571-063a51f2-0d93-465e-a43d-517449eaeb1f.png)
 
