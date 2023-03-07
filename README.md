@@ -24,9 +24,7 @@
 ### result
 <hr/>
 사람 문장과 시스템 문장 두 문장을 각각 토큰화 한 뒤 [CLS] + 사람문장 + [SEP] + 시스템문장 + [SEP] 형태로 이어 붙임
-
-
-
+''
 
 ![image](https://user-images.githubusercontent.com/100950656/223348433-0464125e-4863-4896-977b-c6f2ab708196.png)
 
